@@ -6,7 +6,7 @@ create table if not exists albums(
   artist varchar(150) default 'none',
   name varchar(150) not null,
   release_date year(4),
-  sales float(4,2),
+  sales float(10,2),
   genre varchar(128),
   primary key (id)
 );
