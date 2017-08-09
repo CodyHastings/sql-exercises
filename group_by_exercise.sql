@@ -8,3 +8,8 @@ Select * from employees
 where last_name like 'E%'
 and last_name like '%E'
 group by last_name;
+
+Select  * from employees 
+where last_name like 'E%'
+and last_name like '%E'
+group by first_name, last_name;
